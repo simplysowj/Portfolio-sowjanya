@@ -52,11 +52,11 @@ def get_text():
     input_text = st.text_input("After providing OpenAI API Key on the sidebar, you can send your questions and hit Enter to know more about me from my AI agent, Buddy!", key="input")
     return input_text
 
-#st.markdown("Chat With Me Now")
+st.markdown("Chat With Me Now")
 user_input = get_text()
 
 if user_input:
-  #text = st.text_area('Enter your questions')
+  text = st.text_area('Enter your questions')
   if not openai_api_key.startswith('sk-'):
     st.warning('⚠️Please enter your OpenAI API key on the sidebar.', icon='⚠')
   if openai_api_key.startswith('sk-'):
