@@ -11,11 +11,7 @@ from langchain.chat_models import ChatOpenAI
 
 st.set_page_config(page_title='Template' ,layout="wide",page_icon='👧🏻')
 
-def local_css(file_name):
-    with open(file_name) as f:
-        st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
-    
-local_css("portfolio-template-LLM/style/style.css")
+
 
 # -----------------  chatbot  ----------------- #
 # Set up the OpenAI key
