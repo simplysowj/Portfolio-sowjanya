@@ -15,6 +15,9 @@ st.set_page_config(page_title='Template' ,layout="wide",page_icon='👧🏻')
 # Custom CSS styles
 custom_css = """
 <style>
+  body {
+        background-color: blue;
+    }
     /* Change the sidebar color */
     [data-testid=stSidebar] {
         background-image: linear-gradient(#000395, #FFD4DD);
