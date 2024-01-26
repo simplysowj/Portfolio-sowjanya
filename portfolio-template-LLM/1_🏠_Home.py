@@ -28,7 +28,7 @@ custom_css = """
     }
 
     p {
-        color: white;
+        color: black;
     }
 
     .st-ck {
