@@ -9,6 +9,10 @@ from PIL import Image
 import openai
 from langchain.chat_models import ChatOpenAI
 
+
+
+st.set_page_config(page_title='Template' ,layout="wide",page_icon='👧🏻')
+
 # Custom CSS styles
 custom_css = """
 <style>
@@ -31,10 +35,6 @@ custom_css = """
 
 # Apply custom CSS to the home page
 st.markdown(custom_css, unsafe_allow_html=True)
-
-st.set_page_config(page_title='Template' ,layout="wide",page_icon='👧🏻')
-
-
 
 # -----------------  chatbot  ----------------- #
 # Set up the OpenAI key
