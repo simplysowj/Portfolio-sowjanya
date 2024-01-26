@@ -17,7 +17,9 @@ openai_api_key = st.sidebar.text_input('Enter your OpenAI API Key and hit Enter'
 openai.api_key = (openai_api_key)
 
 # load the file
-documents = SimpleDirectoryReader(input_files=["bio.txt"]).load_data()
+file_path = "portfolio-template-LLM/bio.txt" 
+documents = SimpleDirectoryReader(input_files=[file_path]).load_data()
+
 
 pronoun = info["Pronoun"]
 name = info["Name"]
