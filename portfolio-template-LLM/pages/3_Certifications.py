@@ -10,12 +10,12 @@ local_css("portfolio-template-LLM/style/style.css")
 
 st.sidebar.markdown(info['Photo'],unsafe_allow_html=True)
 
-img_4 = Image.open("images/4.png")
-img_5 = Image.open("images/5.png")
-img_6 = Image.open("images/6.png")
-img_7 = Image.open("images/7.png")
-img_8 = Image.open("images/8.png")
-img_9 = Image.open("images/9.png")
+img_4 = Image.open("portfolio-template-LLM/images/4.png")
+img_5 = Image.open("portfolio-template-LLM/images/5.png")
+img_6 = Image.open("portfolio-template-LLM/images/6.png")
+img_7 = Image.open("portfolio-template-LLM/images/7.png")
+img_8 = Image.open("portfolio-template-LLM/images/8.png")
+img_9 = Image.open("portfolio-template-LLM/images/9.png")
 
 st.title("🫶 Certifications")
 
