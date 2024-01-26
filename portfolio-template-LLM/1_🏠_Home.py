@@ -12,7 +12,99 @@ from langchain.chat_models import ChatOpenAI
 
 
 st.set_page_config(page_title='Template' ,layout="wide",page_icon='👧🏻')
+# Custom CSS styles
+custom_css = """
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        color: #333;
+    }
 
+    h1, h2, h3, h4, h5, h6 {
+        color: #000;
+    }
+
+    p {
+        line-height: 1.5;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .header {
+        text-align: center;
+        background-image: linear-gradient(to right, #FFD4DD, #000395);
+        font-size: 60px;
+        border-radius: 2%;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .header span {
+        color: #e0fbfc;
+    }
+
+    .intro {
+        font-size: 17px;
+    }
+
+    .about {
+        margin-top: 20px;
+    }
+
+    .profile-pic {
+        width: 150px;
+        border-radius: 50%;
+        margin-top: 20px;
+    }
+
+    .skills-header {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .skills-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .skill-item {
+        margin: 10px;
+        text-align: center;
+    }
+
+    .contact-header {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .contact-form {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .contact-form input,
+    .contact-form textarea,
+    .contact-form button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .contact-form button {
+        background-color: #000;
+        color: #fff;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+    }
+</style>
+"""
+
+st.markdown(custom_css, unsafe_allow_html=True)
 
 
 # -----------------  chatbot  ----------------- #
