@@ -15,91 +15,81 @@ st.set_page_config(page_title='Template' ,layout="wide",page_icon='👧🏻')
 # Custom CSS styles
 custom_css = """
 <style>
-    body {
-        font-family: 'Arial', sans-serif;
-        color: #333;
+    /* Change the sidebar color */
+    [data-testid=stSidebar] {
+        background-image: linear-gradient(#000395, #FFD4DD);
     }
 
-    h1, h2, h3, h4, h5, h6 {
-        color: #000;
+    /* Style hyperlinks */
+    a {
+        display: block;
+        color: #2e9aff !important;
+        font-weight: bold;
     }
 
     p {
-        line-height: 1.5;
+        color: white;
     }
 
-    .container {
-        max-width: 1200px;
-        margin: 0 auto;
+    .st-ck {
+        caret-color: black;
     }
 
-    .header {
-        text-align: center;
-        background-image: linear-gradient(to right, #FFD4DD, #000395);
-        font-size: 60px;
-        border-radius: 2%;
-        padding: 20px;
-        margin-bottom: 20px;
+    .st-bh, .st-c2, .st-c3, .st-c4, .st-c5, .st-c6, .st-c7, .st-c8, .st-c9, .st-ca, .st-cb, .st-b8, .st-cc, .st-cd, .st-ce, .st-cf, .st-cg, .st-ch, .st-ci, .st-cj, .st-ae, .st-af, .st-ag, .st-ck, .st-ai, .st-aj, .st-c1, .st-cl, .st-cm, .st-cn {
+        color: black;
     }
 
-    .header span {
-        color: #e0fbfc;
-    }
-
-    .intro {
-        font-size: 17px;
-    }
-
-    .about {
-        margin-top: 20px;
-    }
-
-    .profile-pic {
-        width: 150px;
-        border-radius: 50%;
-        margin-top: 20px;
-    }
-
-    .skills-header {
-        margin-top: 50px;
-        text-align: center;
-    }
-
-    .skills-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-top: 20px;
-    }
-
-    .skill-item {
-        margin: 10px;
-        text-align: center;
-    }
-
-    .contact-header {
-        margin-top: 50px;
-        text-align: center;
-    }
-
-    .contact-form {
-        max-width: 500px;
-        margin: 0 auto;
-    }
-
-    .contact-form input,
-    .contact-form textarea,
-    .contact-form button {
+    /* Style the contact form */
+    input[type=message], input[type=email], input[type=text], textarea {
         width: 100%;
-        margin-top: 10px;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
     }
 
-    .contact-form button {
-        background-color: #000;
-        color: #fff;
-        padding: 10px;
+    /* Style the submit button with a specific background color etc */
+    button[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
         border: none;
+        border-radius: 4px;
         cursor: pointer;
+    }
+
+    /* When moving the mouse over the submit button, add a darker green color */
+    button[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+    /* Hide Streamlit Branding */
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
+
+    /* Design Hyperlink */
+    a:link, a:visited {
+        color: blue;
+        text-decoration: underline;
+    }
+
+    a:hover, a:active {
+        color: red;
+        text-decoration: underline;
+    }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #001d6c;
+        color: white;
+        text-align: center;
     }
 </style>
 """
