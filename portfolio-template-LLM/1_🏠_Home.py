@@ -28,15 +28,15 @@ custom_css = """
     }
 
     p {
-        color: black;
+        color: white;
     }
 
     .st-ck {
-        caret-color: black;
+        caret-color: white;
     }
 
     .st-bh, .st-c2, .st-c3, .st-c4, .st-c5, .st-c6, .st-c7, .st-c8, .st-c9, .st-ca, .st-cb, .st-b8, .st-cc, .st-cd, .st-ce, .st-cf, .st-cg, .st-ch, .st-ci, .st-cj, .st-ae, .st-af, .st-ag, .st-ck, .st-ai, .st-aj, .st-c1, .st-cl, .st-cm, .st-cn {
-        color: black;
+        color: white;
     }
 
     /* Style the contact form */
