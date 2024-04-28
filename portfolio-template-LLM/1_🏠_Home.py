@@ -104,6 +104,9 @@ st.markdown(custom_css, unsafe_allow_html=True)
 # Set up the OpenAI key
 openai_api_key = st.sidebar.text_input('Enter your OpenAI API Key and hit Enter', type="password")
 openai.api_key = (openai_api_key)
+st.markdown("## How to use\n"
+            "1. Enter your [OpenAI API key](https://platform.openai.com/account/api-keys) below🔑\n"  # noqa: E501
+        )
 
 # load the file
 file_path = "portfolio-template-LLM/bio.txt" 
