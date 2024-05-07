@@ -8,7 +8,7 @@ Career Goal:
 Sowjanya's career goal is to leverage their expertise in AI and emerging technologies to drive meaningful innovation and create solutions that positively impact businesses and society.
 
 Skills: 
-AI, Data Science, Web technologies, Python,React JS,Spring Boot
+AI, Data Science, Web technologies, Python,React JS,Spring Boot and Big data engineering
 
 Certification:
 certified Data Scientist
