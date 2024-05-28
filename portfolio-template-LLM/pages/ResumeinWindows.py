@@ -7,7 +7,7 @@ def local_css(file_name):
         
 local_css("portfolio-template-LLM/style/style.css")
 
-st.sidebar.markdown(info['Photo'], unsafe_allow_html=True)
+#st.sidebar.markdown(info['Photo'], unsafe_allow_html=True)
 
 st.title("📝 Resume")
 
