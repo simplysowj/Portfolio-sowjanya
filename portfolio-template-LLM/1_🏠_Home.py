@@ -155,6 +155,23 @@ with st.container():
             - **Databases**: MySQL, PostgreSQL, Toad, MongoDB Atlas
             - **Soft Skills**: Problem Solving, Team Collaboration, Communication, Time Management
             """)
+   # Education Section
+    st.subheader("🎓 Education")
+    st.write("""
+            - **MSC in Data Science**:
+              - **University**: Chandigarh University
+              - **Subjects**: Python Programming, Calculus and Linear Algebra for Data Scientists, Applied Probability and Statistics, Data Analysis and Visualization, Communication and Soft Skills, Machine Learning, SQL Programming, Advanced Machine Learning, Advanced Database Management, Deep Learning, Optimization, Natural Language Processing
+            """)
+            
+   # Advanced Skills Section
+   st.subheader("🔍 Advanced Skills")
+   st.write("""
+            - **Machine Learning & Deep Learning**:
+              - **Libraries**: NumPy, Pandas, Scikit-learn, NLTK, TensorFlow, PyTorch
+              - **Techniques**: Data Exploration & Analysis, Data Modelling, Statistics and Probability, Linear Regression, Gradient Descent, Logistic Regression, Regularization, SVM, KNN, Decision Trees, Random Forest, Ensemble Techniques, Bagging & Boosting, Cross-Validation, Cluster Analysis, Hyperparameter Tuning, Experiment Tracking and Model Management using MLflow, MLOps
+              - **NLP Techniques**: Tokenization, Bag of Words, Stemming, Lemmatization, POS Tagging, TF-IDF, BERT, Word2Vec, GloVe
+              - **Deep Learning**: Neural Network Architectures (CNN, RNN, LSTM), Computer Vision (Image Classification, Object Detection, Image Segmentation), NLP Tasks (Sentiment Analysis, Text Classification, Language Modeling, Generative Adversarial Networks), Optimization Techniques (Gradient Descent)
+            """)
     
     
 
