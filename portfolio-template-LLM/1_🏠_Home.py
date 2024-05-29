@@ -164,8 +164,8 @@ with st.container():
             """)
             
    # Advanced Skills Section
-   st.subheader("🔍 Advanced Skills")
-   st.write("""
+    st.subheader("🔍 Advanced Skills")
+    st.write("""
             - **Machine Learning & Deep Learning**:
               - **Libraries**: NumPy, Pandas, Scikit-learn, NLTK, TensorFlow, PyTorch
               - **Techniques**: Data Exploration & Analysis, Data Modelling, Statistics and Probability, Linear Regression, Gradient Descent, Logistic Regression, Regularization, SVM, KNN, Decision Trees, Random Forest, Ensemble Techniques, Bagging & Boosting, Cross-Validation, Cluster Analysis, Hyperparameter Tuning, Experiment Tracking and Model Management using MLflow, MLOps
