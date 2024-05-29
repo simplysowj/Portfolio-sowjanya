@@ -16,7 +16,7 @@ img_3 = Image.open("portfolio-template-LLM/images/i3.png")
 img_4 = Image.open("portfolio-template-LLM/images/i4.png")
 img_5 = Image.open("portfolio-template-LLM/images/i5.png")
 
-st.title("🫶 Hobbies")
+st.title("Internships")
 
 col1, col2, col3 = st.columns(3)
 
