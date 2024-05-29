@@ -16,6 +16,7 @@ img_6 = Image.open("portfolio-template-LLM/images/6.png")
 img_7 = Image.open("portfolio-template-LLM/images/7.png")
 img_8 = Image.open("portfolio-template-LLM/images/8.png")
 img_9 = Image.open("portfolio-template-LLM/images/9.png")
+img_10 = Image.open("portfolio-template-LLM/images/9.png")
 
 st.title("🫶 Certifications")
 
@@ -37,3 +38,5 @@ with col5:
 
 with col6:
    st.image(img_9)
+with col7:
+   st.image(img_10)
