@@ -28,3 +28,7 @@ with col2:
 
 with col3:
    st.image(img_3)
+with col3:
+   st.image(img_4)
+with col3:
+   st.image(img_5)
