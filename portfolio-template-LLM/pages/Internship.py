@@ -10,9 +10,11 @@ local_css("portfolio-template-LLM/style/style.css")
 
 st.sidebar.markdown(info['Photo'],unsafe_allow_html=True)
 
-img_1 = Image.open("portfolio-template-LLM/images/1.jpg")
-img_2 = Image.open("portfolio-template-LLM/images/2.png")
-img_3 = Image.open("portfolio-template-LLM/images/3.png")
+img_1 = Image.open("portfolio-template-LLM/images/i1.png")
+img_2 = Image.open("portfolio-template-LLM/images/i2.png")
+img_3 = Image.open("portfolio-template-LLM/images/i3.png")
+img_4 = Image.open("portfolio-template-LLM/images/i4.png")
+img_5 = Image.open("portfolio-template-LLM/images/i5.png")
 
 st.title("🫶 Hobbies")
 
