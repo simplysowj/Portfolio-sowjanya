@@ -16,7 +16,7 @@ img_6 = Image.open("portfolio-template-LLM/images/6.png")
 img_7 = Image.open("portfolio-template-LLM/images/7.png")
 img_8 = Image.open("portfolio-template-LLM/images/8.png")
 img_9 = Image.open("portfolio-template-LLM/images/9.png")
-img_10 = Image.open("portfolio-template-LLM/images/9.png")
+img_10 = Image.open("portfolio-template-LLM/images/nlp.png")
 
 st.title("🫶 Certifications")
 
