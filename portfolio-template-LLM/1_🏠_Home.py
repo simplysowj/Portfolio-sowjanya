@@ -136,6 +136,25 @@ with st.container():
   
     with col4:
         st_lottie(js_lottie,height=50,width=50, key="js", speed=1)
+
+# Technical Skills Section
+st.subheader("🛠 Technical Skills")
+st.write("""
+- **Programming Languages**: Python, Java, C
+- **Web Development**: HTML, CSS, JavaScript, Bootstrap
+- **JavaScript Libraries & Frameworks**: Node.js, React.js
+- **Java Framework**: SpringBoot
+- **Microservices & Containers**: Docker
+- **Big Data Engineering**: Kafka, PySpark
+- **Gen AI Skills**: LLM (Large Language Model)
+- **Data Visualization**: Tableau, Excel, Matplotlib, Seaborn
+- **Web Frameworks**: Flask, Streamlit
+- **GUI Development**: Swing
+- **Other Technologies**: Microservices Architecture
+- **Tools**: Git, Anaconda, Jupyter notebook/Colab, VS Code, IntelliJ IDEA
+- **Databases**: MySQL, PostgreSQL, Toad, MongoDB Atlas
+- **Soft Skills**: Problem Solving, Team Collaboration, Communication, Time Management
+""")
     
     
 
