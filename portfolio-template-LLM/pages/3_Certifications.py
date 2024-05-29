@@ -38,5 +38,4 @@ with col5:
 
 with col6:
    st.image(img_9)
-with col7:
-   st.image(img_10)
+st.image(img_10)
