@@ -30,12 +30,8 @@ with col2:
 
 with col3:
    st.image(img_6)
-with col4:
-   st.image(img_7)
+st.image(img_7)
    
-with col5:
-   st.image(img_8)
-
-with col6:
-   st.image(img_9)
+st.image(img_8)
+st.image(img_9)
 st.image(img_10)
