@@ -22,14 +22,11 @@ st.title("🫶 Certifications")
 
 col1, col2, col3,col4,col5,col6 = st.columns(6)
 
-with col1:
-   st.image(img_4)
+st.image(img_4)
    
-with col2:
-   st.image(img_5)
+st.image(img_5)
 
-with col3:
-   st.image(img_6)
+st.image(img_6)
 st.image(img_7)
    
 st.image(img_8)
