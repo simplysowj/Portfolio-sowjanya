@@ -125,7 +125,7 @@ def display_projects():
             else:
                 st.write(f"[GitHub Repository]({project['github_link']})")
         if project["video_link"]:
-            st.video(project["video_link"])
+            st.write(project["video_link"])
 
 
 
