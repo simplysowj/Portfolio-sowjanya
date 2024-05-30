@@ -1,7 +1,7 @@
 import streamlit as st
 
 def display_projects():
-    st.title("My Projects")
+    st.title("Some of my Projects")
 
     projects = [
         {
