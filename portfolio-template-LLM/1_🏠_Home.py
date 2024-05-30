@@ -28,7 +28,7 @@ st.markdown("## How to use\n"
 file_path = "portfolio-template-LLM/bio.txt" 
 documents = SimpleDirectoryReader(input_files=[file_path]).load_data()
 
-lottie_animations = {key: load_lottie_json(path) for key, path in lottie_files.items()}
+
 pronoun = info["Pronoun"]
 name = info["Name"]
 def ask_bot(input_text):
@@ -94,6 +94,7 @@ def local_css(file_name):
 local_css("portfolio-template-LLM/style/style.css")
 lottie_files = {
     'ai': 'portfolio-template-LLM/images/AI.json'}
+lottie_animations = {key: load_lottie_json(path) for key, path in lottie_files.items()}
 # loading assets
 ai = load_lottie_json('portfolio-template-LLM/images/AI.json')
 lottie_gif = load_lottieurl("https://assets9.lottiefiles.com/packages/lf20_x17ybolp.json")
