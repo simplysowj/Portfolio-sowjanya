@@ -77,6 +77,13 @@ def load_lottieurl(url: str):
     if r.status_code != 200:
         return None
     return r.json()
+def load_lottie_json(file_path: str):
+    try:
+        with open(file_path, 'r') as f:
+            return json.load(f)
+    except Exception as e:
+        st.error(f"Error loading Lottie JSON file: {e}")
+        return None
 
 def local_css(file_name):
     with open(file_name) as f:
