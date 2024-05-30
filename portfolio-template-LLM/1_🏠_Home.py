@@ -146,7 +146,8 @@ with st.container():
   
     with col4:
         st_lottie(js_lottie,height=50,width=50, key="js", speed=1)
-    st_lottie(ai_lottie,height=50,width=50, key="js", speed=1)
+    with col3:
+        st_lottie(ai_lottie,height=50,width=50, key="js", speed=1)
     
 
     # Technical Skills Section
