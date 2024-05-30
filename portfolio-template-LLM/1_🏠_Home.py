@@ -159,7 +159,7 @@ with st.container():
             st.image(img_1)
     with col2:
             st.image(img_2)
-    with col2:
+    with col3:
             st.image(img_3)
     
 
