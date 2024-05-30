@@ -28,7 +28,7 @@ st.markdown("## How to use\n"
 file_path = "portfolio-template-LLM/bio.txt" 
 documents = SimpleDirectoryReader(input_files=[file_path]).load_data()
 
-
+lottie_animations = {key: load_lottie_json(path) for key, path in lottie_files.items()}
 pronoun = info["Pronoun"]
 name = info["Name"]
 def ask_bot(input_text):
@@ -147,7 +147,7 @@ with st.container():
     with col4:
         st_lottie(js_lottie,height=50,width=50, key="js", speed=1)
     with col3:
-        st_lottie(ai_lottie,height=50,width=50, key="js", speed=1)
+        st_lottie(lottie_animations['ai_lottie'], height=100, width=100, key="ai")
     
 
     # Technical Skills Section
