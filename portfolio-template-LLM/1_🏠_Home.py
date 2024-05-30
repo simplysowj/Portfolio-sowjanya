@@ -13,6 +13,7 @@ import json
 
 img_1 = Image.open("portfolio-template-LLM/images/bd.png")
 img_2 = Image.open("portfolio-template-LLM/images/mdb.png")
+img_3 = Image.open("portfolio-template-LLM/images/gai.png")
 
 
 st.set_page_config(page_title='Template' ,layout="wide",page_icon='👧🏻')
@@ -158,7 +159,8 @@ with st.container():
             st.image(img_1)
     with col2:
             st.image(img_2)
-            
+    with col2:
+            st.image(img_3)
     
 
     # Technical Skills Section
