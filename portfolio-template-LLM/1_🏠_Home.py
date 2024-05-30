@@ -139,22 +139,27 @@ with st.container():
 
     # Technical Skills Section
     st.subheader("🛠 Technical Skills")
-    st.write("""
-            - **Programming Languages**: Python, Java, C
-            - **Web Development**: HTML, CSS, JavaScript, Bootstrap
-            - **JavaScript Libraries & Frameworks**: Node.js, React.js
-            - **Java Framework**: SpringBoot
-            - **Microservices & Containers**: Docker
-            - **Big Data Engineering**: Kafka, PySpark
-            - **Gen AI Skills**: LLM (Large Language Model)
-            - **Data Visualization**: Tableau, Excel, Matplotlib, Seaborn
-            - **Web Frameworks**: Flask, Streamlit
-            - **GUI Development**: Swing
-            - **Other Technologies**: Microservices Architecture
-            - **Tools**: Git, Anaconda, Jupyter notebook/Colab, VS Code, IntelliJ IDEA
-            - **Databases**: MySQL, PostgreSQL, Toad, MongoDB Atlas
-            - **Soft Skills**: Problem Solving, Team Collaboration, Communication, Time Management
-            """)
+ 
+    st.markdown("""
+                <div style="background-color: #f9f9f9; padding: 10px; border-radius: 5px;">
+                    <ul style="list-style-type: none; padding: 0;">
+                        <li><b>Programming Languages:</b> Python, Java, C</li>
+                        <li><b>Web Development:</b> HTML, CSS, JavaScript, Bootstrap</li>
+                        <li><b>JavaScript Libraries & Frameworks:</b> Node.js, React.js</li>
+                        <li><b>Java Framework:</b> SpringBoot</li>
+                        <li><b>Microservices & Containers:</b> Docker</li>
+                        <li><b>Big Data Engineering:</b> Kafka, PySpark</li>
+                        <li><b>Gen AI Skills:</b> LLM (Large Language Model)</li>
+                        <li><b>Data Visualization:</b> Tableau, Excel, Matplotlib, Seaborn</li>
+                        <li><b>Web Frameworks:</b> Flask, Streamlit</li>
+                        <li><b>GUI Development:</b> Swing</li>
+                        <li><b>Other Technologies:</b> Microservices Architecture</li>
+                        <li><b>Tools:</b> Git, Anaconda, Jupyter notebook/Colab, VS Code, IntelliJ IDEA</li>
+                        <li><b>Databases:</b> MySQL, PostgreSQL, Toad, MongoDB Atlas</li>
+                        <li><b>Soft Skills:</b> Problem Solving, Team Collaboration, Communication, Time Management</li>
+                    </ul>
+                </div>
+            """, unsafe_allow_html=True)
    # Education Section
     st.subheader("🎓 Education")
     st.write("""
