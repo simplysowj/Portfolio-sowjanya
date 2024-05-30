@@ -153,6 +153,8 @@ with st.container():
         st_lottie(lottie_animations['ai'], height=100, width=100, key="ai")
     with col4:
         st_lottie(lottie_animations['react'], height=50, width=50, key="react")
+    with col1:
+            st.image(img_1)
 
             
     
