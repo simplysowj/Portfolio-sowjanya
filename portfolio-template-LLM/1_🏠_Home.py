@@ -92,9 +92,10 @@ def local_css(file_name):
         st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
     
 local_css("portfolio-template-LLM/style/style.css")
-
+lottie_files = {
+    'ai': 'portfolio-template-LLM/images/AI.json'}
 # loading assets
-ai_lottie = load_lottie_json('portfolio-template-LLM/images/AI.json')
+ai = load_lottie_json('portfolio-template-LLM/images/AI.json')
 lottie_gif = load_lottieurl("https://assets9.lottiefiles.com/packages/lf20_x17ybolp.json")
 python_lottie = load_lottieurl("https://assets6.lottiefiles.com/packages/lf20_2znxgjyt.json")
 java_lottie = load_lottieurl("https://assets9.lottiefiles.com/packages/lf20_zh6xtlj9.json")
@@ -147,7 +148,7 @@ with st.container():
     with col4:
         st_lottie(js_lottie,height=50,width=50, key="js", speed=1)
     with col3:
-        st_lottie(lottie_animations['ai_lottie'], height=100, width=100, key="ai")
+        st_lottie(lottie_animations['ai'], height=100, width=100, key="ai")
     
 
     # Technical Skills Section
