@@ -55,7 +55,7 @@ def display_projects():
             Auto correct project (Spelling corrector)
             """,
             "github_link": [
-                "https://github.com/simplysowj/NLP_projects/tree/main/ProjectAutoCorrectNext Word Generator",
+                
                 "https://github.com/simplysowj/NLP_projects"
             ],
             "video_link": ""
