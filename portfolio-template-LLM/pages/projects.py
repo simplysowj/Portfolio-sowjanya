@@ -15,7 +15,7 @@ def display_projects():
             proficiency in leveraging diverse technologies for impactful web experiences.
             """,
             "github_link": "https://github.com/simplysowj/Mentorness",
-            "video_link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"  
+            "video_link": "https://www.linkedin.com/posts/sowjanya-bojja_atsresume-streamlit-resumeparser-activity-7173455333477064704-WaeO?utm_source=share&utm_medium=member_desktop"  
         },
         {
             "title": "Bharat Intern - Data Science Intern",
@@ -25,7 +25,7 @@ def display_projects():
             Additionally, developed a Titanic data classification model to predict survival outcomes using passenger data.
             """,
             "github_link": "https://github.com/simplysowj/CatVsDog_Classifier-SpamDetector",
-            "video_link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"  # Replace with actual video link
+            "video_link": "https://www.linkedin.com/posts/sowjanya-bojja_internship-journey-with-bharat-intern-sms-activity-7164659747697205248-sOjj?utm_source=share&utm_medium=member_desktop"
         },
         # Add more projects as needed
     ]
