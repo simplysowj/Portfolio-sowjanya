@@ -47,10 +47,7 @@ button[type=submit]:hover {
   background-color: #45a049;
 }
 
-/* Hide Streamlit Branding */
-#MainMenu {visibility: hidden;}
-footer {visibility: hidden;}
-header {visibility: hidden;}
+
 
 
 /* Design Hyperlink */
