@@ -11,6 +11,7 @@ from langchain.chat_models import ChatOpenAI
 
 import json
 
+img_1 = Image.open("portfolio-template-LLM/images/bd.png")
 
 
 st.set_page_config(page_title='Template' ,layout="wide",page_icon='👧🏻')
