@@ -170,7 +170,7 @@ with st.container():
     st.subheader("🛠 Technical Skills")
  
     st.markdown("""
-                <div style="background-color: #f9f9f9; padding: 10px; border-radius: 5px;">
+                <div style=" padding: 10px; border-radius: 5px;">
                     <ul style="list-style-type: none; padding: 0;">
                         <li><b>Programming Languages:</b> Python, Java, C</li>
                         <li><b>Web Development:</b> HTML, CSS, JavaScript, Bootstrap</li>
