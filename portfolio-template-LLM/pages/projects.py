@@ -112,7 +112,7 @@ def display_projects():
             "github_link": "",
             "video_link": "https://www.linkedin.com/posts/sowjanya-bojja_financialanalysis-frauddetection-datavisualization-activity-7197954843980783616-G48c?utm_source=share&utm_medium=member_desktop"
         }
-    ]
+       ]
 
     for project in projects:
         st.subheader(project["title"])
@@ -126,16 +126,7 @@ def display_projects():
                 st.write(f"[GitHub Repository]({project['github_link']})")
         if project["video_link"]:
             st.video(project["video_link"])
-    ]
 
-    for project in projects:
-        st.subheader(project["title"])
-        st.write(f"**Duration:** {project['duration']}")
-        st.write(project["description"])
-        if project["github_link"]:
-            st.write(f"[GitHub Repository]({project['github_link']})")
-        if project["video_link"]:
-            st.write(project["video_link"])
 
 
 display_projects()
