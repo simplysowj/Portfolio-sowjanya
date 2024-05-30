@@ -156,7 +156,7 @@ with st.container():
         st_lottie(lottie_animations['react'], height=50, width=50, key="react")
     with col1:
             st.image(img_1)
-    with col1:
+    with col2:
             st.image(img_2)
             
     
