@@ -148,12 +148,10 @@ with st.container():
     with col2:
         st_lottie(docker_lottie,height=70,width=70, key="docker", speed=2.5)
   
-    with col4:
-        st_lottie(js_lottie,height=50,width=50, key="js", speed=1)
     with col3:
         st_lottie(lottie_animations['ai'], height=100, width=100, key="ai")
-    with col1:
-        st_lottie(lottie_animations['react'], height=100, width=100, key="react")
+    with col4:
+        st_lottie(lottie_animations['react'], height=50, width=50, key="react")
 
             
     
