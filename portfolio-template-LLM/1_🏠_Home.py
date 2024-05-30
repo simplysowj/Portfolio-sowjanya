@@ -12,6 +12,7 @@ from langchain.chat_models import ChatOpenAI
 import json
 
 img_1 = Image.open("portfolio-template-LLM/images/bd.png")
+img_2 = Image.open("portfolio-template-LLM/images/mdb.png")
 
 
 st.set_page_config(page_title='Template' ,layout="wide",page_icon='👧🏻')
@@ -155,7 +156,8 @@ with st.container():
         st_lottie(lottie_animations['react'], height=50, width=50, key="react")
     with col1:
             st.image(img_1)
-
+    with col1:
+            st.image(img_2)
             
     
 
