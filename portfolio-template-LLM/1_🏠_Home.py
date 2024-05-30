@@ -85,7 +85,7 @@ def local_css(file_name):
 local_css("portfolio-template-LLM/style/style.css")
 
 # loading assets
-ai_lottie = load_lottie_json('images/AI.json')
+ai_lottie = load_lottie_json('portfolio-template-LLM/images/AI.json')
 lottie_gif = load_lottieurl("https://assets9.lottiefiles.com/packages/lf20_x17ybolp.json")
 python_lottie = load_lottieurl("https://assets6.lottiefiles.com/packages/lf20_2znxgjyt.json")
 java_lottie = load_lottieurl("https://assets9.lottiefiles.com/packages/lf20_zh6xtlj9.json")
