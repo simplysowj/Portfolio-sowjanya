@@ -142,26 +142,26 @@ with st.container():
     st.subheader('⚒️ Skills')
     col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
     with col1:
-        st_lottie(python_lottie, height=70,width=70, key="python", speed=2.5)
+        st_lottie(python_lottie, height=100,width=100, key="python", speed=2.5)
     with col2:
-        st_lottie(java_lottie, height=70,width=70, key="java", speed=4)
+        st_lottie(java_lottie, height=100,width=100, key="java", speed=4)
     with col3:
-        st_lottie(my_sql_lottie,height=70,width=70, key="mysql", speed=2.5)
+        st_lottie(my_sql_lottie,height=100,width=100, key="mysql", speed=2.5)
     with col4:
-        st_lottie(git_lottie,height=70,width=70, key="git", speed=2.5)
+        st_lottie(git_lottie,height=100,width=100, key="git", speed=2.5)
     with col1:
-        st_lottie(github_lottie,height=70,width=70, key="github", speed=2.5)
+        st_lottie(github_lottie,height=100,width=100, key="github", speed=2.5)
     with col2:
-        st_lottie(docker_lottie,height=70,width=70, key="docker", speed=2.5)
+        st_lottie(docker_lottie,height=100,width=100, key="docker", speed=2.5)
   
     with col3:
         st_lottie(lottie_animations['ai'], height=100, width=100, key="ai")
     with col4:
-        st_lottie(lottie_animations['react'], height=70, width=70, key="react")
+        st_lottie(lottie_animations['react'], height=100, width=100, key="react")
     with col1:
             st.image(img_1 )
     with col2:
-        st_lottie(lottie_animations['mongo'], height=70, width=70, key="mongo")
+        st_lottie(lottie_animations['mongo'], height=100, width=100, key="mongo")
     with col3:
             st.image(img_3 )
     with col4:
