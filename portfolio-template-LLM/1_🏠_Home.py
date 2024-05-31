@@ -16,7 +16,7 @@ img_2 = Image.open("portfolio-template-LLM/images/mdb.png")
 img_3 = Image.open("portfolio-template-LLM/images/gai.png")
 img_4 = Image.open("portfolio-template-LLM/images/t.png")
 
-img_3=img_3.resize((50, 50))
+img_4=img_4.resize((50, 50))
 st.set_page_config(page_title='Template' ,layout="wide",page_icon='👧🏻')
 
 
