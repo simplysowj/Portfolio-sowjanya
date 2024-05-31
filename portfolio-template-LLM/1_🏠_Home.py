@@ -150,18 +150,18 @@ with st.container():
     with col4:
         st_lottie(git_lottie,height=70,width=70, key="git", speed=2.5)
     with col1:
-        st_lottie(github_lottie,height=50,width=50, key="github", speed=2.5)
+        st_lottie(github_lottie,height=70,width=70, key="github", speed=2.5)
     with col2:
         st_lottie(docker_lottie,height=70,width=70, key="docker", speed=2.5)
   
     with col3:
         st_lottie(lottie_animations['ai'], height=100, width=100, key="ai")
     with col4:
-        st_lottie(lottie_animations['react'], height=50, width=50, key="react")
+        st_lottie(lottie_animations['react'], height=70, width=70, key="react")
     with col1:
             st.image(img_1 )
     with col2:
-        st_lottie(lottie_animations['mongo'], height=50, width=50, key="mongo")
+        st_lottie(lottie_animations['mongo'], height=70, width=70, key="mongo")
     with col3:
             st.image(img_3 )
     with col4:
