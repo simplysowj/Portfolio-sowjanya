@@ -3,7 +3,7 @@
 
 /* Style hyperlinks*/
 a{
-   
+  display: block;
   color:#2e9aff !important;
   font-weight: bold;
 }
