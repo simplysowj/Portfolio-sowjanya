@@ -36,6 +36,59 @@ documents = SimpleDirectoryReader(input_files=[file_path]).load_data()
 
 pronoun = info["Pronoun"]
 name = info["Name"]
+
+
+
+import streamlit as st
+
+# Function to create a horizontal navbar
+def horizontal_navbar(links):
+    nav_html = """
+    <style>
+    .navbar {
+        overflow: hidden;
+        background-color: #333;
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    </style>
+    <div class="navbar">
+    """
+    for link in links:
+        nav_html += f'<a href="{link["url"]}">{link["label"]}</a>'
+    nav_html += "</div>"
+    return nav_html
+
+# Define links for the navbar
+navbar_links = [
+    {"label": "Medium Article", "url": "https://medium.com/@simplysowj/the-evolution-and-impact-of-language-models-in-natural-language-processing-35b4d5070e3b"},
+    {"label": "Resume", "url": "link_to_your_resume"},
+    {"label": "LinkedIn", "url": "link_to_your_linkedin_profile"},
+    {"label": "GitHub", "url": "link_to_your_github_profile"},
+    {"label": "Contact", "url": "link_to_contact_information"},
+]
+
+# Render the horizontal navbar
+st.markdown(horizontal_navbar(navbar_links), unsafe_allow_html=True)
+
+
+
+
 def ask_bot(input_text):
     # define LLM
     llm = ChatOpenAI(
