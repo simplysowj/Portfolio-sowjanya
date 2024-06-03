@@ -78,9 +78,9 @@ def horizontal_navbar(links):
 navbar_links = [
     {"label": "Medium Article", "url": "https://medium.com/@simplysowj/the-evolution-and-impact-of-language-models-in-natural-language-processing-35b4d5070e3b"},
     {"label": "Resume", "url": "link_to_your_resume"},
-    {"label": "LinkedIn", "url": "link_to_your_linkedin_profile"},
+    {"label": "LinkedIn", "url": "https://www.linkedin.com/in/sowjanya-bojja/"},
     {"label": "GitHub", "url": "link_to_your_github_profile"},
-    {"label": "Contact", "url": "link_to_contact_information"},
+    {"label": "Contact", "url": "https://github.com/simplysowj"},
 ]
 
 # Render the horizontal navbar
