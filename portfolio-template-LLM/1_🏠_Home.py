@@ -52,8 +52,78 @@ pronoun = info["Pronoun"]
 name = info["Name"]
 
 
+def horizontal_navbar(links, pdf_path):
+    # Load the PDF for download
+    with open(pdf_path, "rb") as pdf_file:
+        pdf_bytes = pdf_file.read()
 
-import streamlit as st
+    nav_html = """
+    <style>
+    .navbar {
+        overflow: hidden;
+        background-color: #333;
+        display: flex;
+        justify-content: center;
+    }
+    .navbar a, .navbar form {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    .navbar a:hover, .navbar button:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    .navbar form button {
+        background: none;
+        border: none;
+        color: inherit;
+        cursor: pointer;
+        font-size: inherit;
+        font-family: inherit;
+        padding: 0;
+    }
+    </style>
+    <div class="navbar">
+    """
+    for link in links:
+        nav_html += f'<a href="{link["url"]}" {"download" if link["label"] == "Resume" else ""}>{link["label"]}</a>'
+    nav_html += """
+    <form action="#" method="post">
+        <button type="submit" name="download">Download Resume as PDF</button>
+    </form>
+    </div>
+    """
+    return nav_html, pdf_bytes
+
+# Define links for the navbar
+navbar_links = [
+    {"label": "Medium Article", "url": "https://medium.com/@simplysowj/the-evolution-and-impact-of-language-models-in-natural-language-processing-35b4d5070e3b"},
+    {"label": "LinkedIn", "url": "https://www.linkedin.com/in/sowjanya-bojja/"},
+    {"label": "GitHub", "url": "https://github.com/simplysowj"},
+]
+
+# Render the horizontal navbar
+nav_html, pdf_bytes = horizontal_navbar(navbar_links, pdf_path)
+st.markdown(nav_html, unsafe_allow_html=True)
+
+# Provide the download button functionality
+if st.session_state.get("download"):
+    st.download_button(
+        label="Download Resume as PDF",
+        data=pdf_bytes,
+        file_name="Sowjanya_Data_science_latest_resume.pdf",
+        mime="application/pdf"
+    )
+
+
+
+
+
 
 # Function to create a horizontal navbar
 def horizontal_navbar(links):
