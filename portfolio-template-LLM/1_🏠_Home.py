@@ -70,17 +70,17 @@ def horizontal_navbar(links):
     <div class="navbar">
     """
     for link in links:
-        nav_html += f'<a href="{link["url"]}">{link["label"]}</a>'
+        nav_html += f'<a href="{link["url"]}" {"download" if link["label"] == "Resume" else ""}>{link["label"]}</a>'
     nav_html += "</div>"
     return nav_html
 
 # Define links for the navbar
 navbar_links = [
     {"label": "Medium Article", "url": "https://medium.com/@simplysowj/the-evolution-and-impact-of-language-models-in-natural-language-processing-35b4d5070e3b"},
-    {"label": "Resume", "url": "link_to_your_resume"},
-    {"label": "LinkedIn", "url": "https://www.linkedin.com/in/sowjanya-bojja/"},
-    {"label": "GitHub", "url": "https://github.com/simplysowj"},
-   
+    {"label": "Resume", "url": "portfolio-template-LLM/images/Sowjanya_Data_science_latest_resume.pdf"},
+    {"label": "LinkedIn", "url": "link_to_your_linkedin_profile"},
+    {"label": "GitHub", "url": "link_to_your_github_profile"},
+    {"label": "Contact", "url": "link_to_contact_information"},
 ]
 
 # Render the horizontal navbar
