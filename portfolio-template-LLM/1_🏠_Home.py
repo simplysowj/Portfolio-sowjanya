@@ -80,7 +80,7 @@ navbar_links = [
     {"label": "Resume", "url": "link_to_your_resume"},
     {"label": "LinkedIn", "url": "https://www.linkedin.com/in/sowjanya-bojja/"},
     {"label": "GitHub", "url": "https://github.com/simplysowj"},
-    {"label": "Contact", "url": "simplysowj@gmail.com"},
+   
 ]
 
 # Render the horizontal navbar
