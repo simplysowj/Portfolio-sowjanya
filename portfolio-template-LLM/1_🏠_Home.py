@@ -21,6 +21,19 @@ img_3=img_3.resize((70, 70))
 st.set_page_config(page_title='Template' ,layout="wide",page_icon='👧🏻')
 
 
+pdf_path = "portfolio-template-LLM/images/Sowjanya_Data_science_latest_resume.pdf"
+
+# Provide a download button for the PDF
+with open(pdf_path, "rb") as pdf_file:
+    pdf_bytes = pdf_file.read()
+    st.download_button(
+        label="Download Resume as PDF",
+        data=pdf_bytes,
+        file_name="Sowjanya_Data_science_latest_resume.pdf",
+        mime="application/pdf"
+    )
+
+
 # -----------------  chatbot  ----------------- #
 # Set up the OpenAI key
 openai_api_key = st.sidebar.text_input('Enter your OpenAI API Key and hit Enter', type="password")
