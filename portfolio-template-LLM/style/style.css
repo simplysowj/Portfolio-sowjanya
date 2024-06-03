@@ -70,3 +70,10 @@ background-color: #001d6c;
 color: white;
 text-align: center;
 }
+
+/* Custom sidebar content styling */
+.sidebar-content {
+  height: calc(100vh - 200px);  /* Adjust height as needed */
+  overflow-y: auto;
+  padding-top: 20px;  /* Add padding to move content down */
+}
