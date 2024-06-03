@@ -36,8 +36,7 @@ with open(pdf_path, "rb") as pdf_file:
 
 # -----------------  chatbot  ----------------- #
 # Set up the OpenAI key
-st.sidebar.markdown("<br><br><br>", unsafe_allow_html=True)
-st.sidebar.markdown("<div class='sidebar-content'>", unsafe_allow_html=True)
+
 openai_api_key = st.sidebar.text_input('Enter your OpenAI API Key and hit Enter', type="password")
 openai.api_key = (openai_api_key)
 st.markdown("## How to use\n"
