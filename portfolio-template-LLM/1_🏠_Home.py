@@ -79,8 +79,8 @@ navbar_links = [
     {"label": "Medium Article", "url": "https://medium.com/@simplysowj/the-evolution-and-impact-of-language-models-in-natural-language-processing-35b4d5070e3b"},
     {"label": "Resume", "url": "link_to_your_resume"},
     {"label": "LinkedIn", "url": "https://www.linkedin.com/in/sowjanya-bojja/"},
-    {"label": "GitHub", "url": "link_to_your_github_profile"},
-    {"label": "Contact", "url": "https://github.com/simplysowj"},
+    {"label": "GitHub", "url": "https://github.com/simplysowj"},
+    {"label": "Contact", "url": "simplysowj@gmail.com"},
 ]
 
 # Render the horizontal navbar
