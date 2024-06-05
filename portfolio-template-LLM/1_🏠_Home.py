@@ -196,7 +196,7 @@ with st.container():
 
 full_name = info['Full_Name']
 with col1:
-    gradient('#FFD4DD','#000395','e0fbfc',f"Hi, I'm {full_name}👋", info["Intro"])
+    gradient('#FFD4DD','#000395','e0fbfc',f"Hi, I'm Sowjanya👋", info["Intro"])
     st.write("")
     st.write(info['About'])
     
