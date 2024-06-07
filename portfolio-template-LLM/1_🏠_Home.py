@@ -40,7 +40,7 @@ with open(pdf_path, "rb") as pdf_file:
 st.markdown("""
     <style>
     .stDownloadButton > button {
-        background-color: #4CAF50; /* Green */
+        background-color: #7223ab; 
         color: white;
         padding: 15px 32px;
         text-align: center;
@@ -53,7 +53,7 @@ st.markdown("""
         border: none;
     }
     .stDownloadButton > button:hover {
-        background-color: #45a049;
+        background-color: #7223ab;
     }
     </style>
     """, unsafe_allow_html=True)
