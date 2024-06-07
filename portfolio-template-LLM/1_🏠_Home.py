@@ -83,7 +83,7 @@ def horizontal_navbar(links):
     <style>
     .navbar {
         overflow: hidden;
-        background-color: #333;
+        background-color: #d0a3f0;
         display: flex;
         justify-content: center;
     }
