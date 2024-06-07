@@ -25,46 +25,6 @@ pdf_path = "portfolio-template-LLM/images/Sowjanya_Data_science_latest_resume.pd
 
 
 
-# Path to your PDF
-pdf_path = "portfolio-template-LLM/images/Sowjanya_Data_science_latest_resume.pdf"
-
-# Load the PDF file
-with open(pdf_path, "rb") as pdf_file:
-    pdf_bytes = pdf_file.read()
-
-# Custom CSS for the button
-button_style = """
-    <style>
-    .download-button {
-        background-color: #4CAF50; /* Green */
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
-        border-radius: 12px;
-    }
-    .download-button:hover {
-        background-color: #45a049;
-    }
-    </style>
-    <a href="data:application/pdf;base64,{}" download="Sowjanya_Data_science_latest_resume.pdf">
-        <button class="download-button">Download Resume as PDF</button>
-    </a>
-    """
-
-# Encode PDF bytes to base64
-import base64
-pdf_base64 = base64.b64encode(pdf_bytes).decode()
-
-# Render the styled button
-st.markdown(button_style.format(pdf_base64), unsafe_allow_html=True)
-
-
 
 # Provide a download button for the PDF
 with open(pdf_path, "rb") as pdf_file:
