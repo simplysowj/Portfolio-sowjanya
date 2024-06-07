@@ -36,6 +36,27 @@ with open(pdf_path, "rb") as pdf_file:
         mime="application/pdf"
     )
 
+# Custom CSS for the download button
+st.markdown("""
+    <style>
+    .stDownloadButton > button {
+        background-color: #4CAF50; /* Green */
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 12px;
+        border: none;
+    }
+    .stDownloadButton > button:hover {
+        background-color: #45a049;
+    }
+    </style>
+    """, unsafe_allow_html=True)
 
 # -----------------  chatbot  ----------------- #
 # Set up the OpenAI key
