@@ -66,7 +66,10 @@ openai.api_key = (openai_api_key)
 st.markdown("## How to use\n"
             "1. Enter your [OpenAI API key](https://platform.openai.com/account/api-keys) in the sidebar🔑\n"  # noqa: E501
         )
-
+st.sidebar.markdown("---")
+st.sidebar.markdown("Developed by Sowjanya")
+st.sidebar.markdown("Contact: [simplysowj@gmai.com](mailto:simplysowj@gmai.com)")
+st.sidebar.markdown("GitHub: [Repo](https://github.com/simplysowj)")
 # load the file
 file_path = "portfolio-template-LLM/bio.txt" 
 documents = SimpleDirectoryReader(input_files=[file_path]).load_data()
