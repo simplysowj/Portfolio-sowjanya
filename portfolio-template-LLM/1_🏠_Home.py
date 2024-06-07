@@ -22,7 +22,7 @@ st.set_page_config(page_title='Template' ,layout="wide",page_icon='👧🏻')
 
 
 pdf_path = "portfolio-template-LLM/images/Sowjanya_Data_science_latest_resume.pdf"
-
+<div class="nav1">
 # Provide a download button for the PDF
 with open(pdf_path, "rb") as pdf_file:
     pdf_bytes = pdf_file.read()
@@ -32,7 +32,7 @@ with open(pdf_path, "rb") as pdf_file:
         file_name="Sowjanya_Data_science_latest_resume.pdf",
         mime="application/pdf"
     )
-
+</div>
 
 # -----------------  chatbot  ----------------- #
 # Set up the OpenAI key
