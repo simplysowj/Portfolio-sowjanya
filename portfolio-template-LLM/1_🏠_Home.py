@@ -59,13 +59,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # -----------------  chatbot  ----------------- #
-# Set up the OpenAI key
 
-openai_api_key = st.sidebar.text_input('Enter your OpenAI API Key and hit Enter', type="password")
-openai.api_key = (openai_api_key)
-st.markdown("## How to use\n"
-            "1. Enter your [OpenAI API key](https://platform.openai.com/account/api-keys) in the sidebar🔑\n"  # noqa: E501
-        )
 st.sidebar.markdown("---")
 st.sidebar.markdown("Developed by Sowjanya")
 st.sidebar.markdown("Contact: [simplysowj@gmai.com](mailto:simplysowj@gmai.com)")
@@ -128,7 +122,13 @@ navbar_links = [
 # Render the horizontal navbar
 st.markdown(horizontal_navbar(navbar_links), unsafe_allow_html=True)
 
+# Set up the OpenAI key
 
+openai_api_key = st.sidebar.text_input('Enter your OpenAI API Key and hit Enter', type="password")
+openai.api_key = (openai_api_key)
+st.markdown("## How to use\n"
+            "1. Enter your [OpenAI API key](https://platform.openai.com/account/api-keys) in the sidebar🔑\n"  # noqa: E501
+        )
 
 
 def ask_bot(input_text):
