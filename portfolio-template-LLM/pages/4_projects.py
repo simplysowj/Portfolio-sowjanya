@@ -18,6 +18,8 @@ def display_projects():
             "video_link": "https://www.linkedin.com/posts/sowjanya-bojja_atsresume-streamlit-resumeparser-activity-7173455333477064704-WaeO?utm_source=share&utm_medium=member_desktop"  
         },
          {
+            "title": "Big Data Engineering Project",
+            "duration": "Feb 2024 - Mar 2024",
             "description": """Developed an end-to-end sentiment analysis workflow using Apache Spark, Kafka, and PySpark, with Docker for container management and Streamlit for visualization.
             Trained sentiment analysis models in Spark via Zeppelin and integrated results with MySQL for scalable and robust data storage and analysis.
             Created a user-friendly web app with Streamlit to visualize sentiment trends, enhancing accessibility and actionable insights from large-scale datasets.""",
