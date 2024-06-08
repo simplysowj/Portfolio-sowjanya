@@ -32,8 +32,8 @@ def display_projects():
             Additionally, developed a Titanic data classification model to predict survival outcomes using passenger data.
             """,
             "github_link": "https://github.com/simplysowj/CatVsDog_Classifier-SpamDetector",
-            "spam/ham-video_link": "https://www.linkedin.com/posts/sowjanya-bojja_internship-journey-with-bharat-intern-sms-activity-7164659747697205248-sOjj?utm_source=share&utm_medium=member_desktop"
-             "titanic-video" :"https://www.linkedin.com/posts/sowjanya-bojja_titanic-activity-7164669828396490753-UqRl?utm_source=share&utm_medium=member_desktop"
+            "spam/ham-video_link": "https://www.linkedin.com/posts/sowjanya-bojja_internship-journey-with-bharat-intern-sms-activity-7164659747697205248-sOjj?utm_source=share&utm_medium=member_desktop",
+             "titanic-video" :"https://www.linkedin.com/posts/sowjanya-bojja_titanic-activity-7164669828396490753-UqRl?utm_source=share&utm_medium=member_desktop",
              "catvsdog-video":"https://www.linkedin.com/posts/sowjanya-bojja_tensorflow-flask-deeplearning-activity-7163954448375996417-BExp?utm_source=share&utm_medium=member_desktop"
         },
         {
