@@ -17,14 +17,12 @@ def display_projects():
             "github_link": "https://github.com/simplysowj/Mentorness",
             "video_link": "https://www.linkedin.com/posts/sowjanya-bojja_atsresume-streamlit-resumeparser-activity-7173455333477064704-WaeO?utm_source=share&utm_medium=member_desktop"  
         },
-        {
-           """ Developed an end-to-end sentiment analysis workflow using Apache Spark, Kafka, and PySpark, with Docker for container management and Streamlit for visualization.
+         {
+            "description": """Developed an end-to-end sentiment analysis workflow using Apache Spark, Kafka, and PySpark, with Docker for container management and Streamlit for visualization.
             Trained sentiment analysis models in Spark via Zeppelin and integrated results with MySQL for scalable and robust data storage and analysis.
-            Created a user-friendly web app with Streamlit to visualize sentiment trends, enhancing accessibility and actionable insights from large-scale datasets.
-           """,
+            Created a user-friendly web app with Streamlit to visualize sentiment trends, enhancing accessibility and actionable insights from large-scale datasets.""",
             "github_link": "https://github.com/simplysowj/bigdataenggproject",
-            "video_link": "https://www.linkedin.com/posts/sowjanya-bojja_sentimentanalysis-apachespark-kafka-activity-7186393653991415808-2qUG?utm_source=share&utm_medium=member_desktop"  
-    
+            "video_link": "https://www.linkedin.com/posts/sowjanya-bojja_sentimentanalysis-apachespark-kafka-activity-7186393653991415808-2qUG?utm_source=share&utm_medium=member_desktop"
         },
         {
             "title": "Bharat Intern - Data Science Intern",
