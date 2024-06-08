@@ -18,6 +18,15 @@ def display_projects():
             "video_link": "https://www.linkedin.com/posts/sowjanya-bojja_atsresume-streamlit-resumeparser-activity-7173455333477064704-WaeO?utm_source=share&utm_medium=member_desktop"  
         },
         {
+           """ Developed an end-to-end sentiment analysis workflow using Apache Spark, Kafka, and PySpark, with Docker for container management and Streamlit for visualization.
+            Trained sentiment analysis models in Spark via Zeppelin and integrated results with MySQL for scalable and robust data storage and analysis.
+            Created a user-friendly web app with Streamlit to visualize sentiment trends, enhancing accessibility and actionable insights from large-scale datasets.
+           """,
+            "github_link": "https://github.com/simplysowj/bigdataenggproject",
+            "video_link": "https://www.linkedin.com/posts/sowjanya-bojja_sentimentanalysis-apachespark-kafka-activity-7186393653991415808-2qUG?utm_source=share&utm_medium=member_desktop"  
+    
+        },
+        {
             "title": "Bharat Intern - Data Science Intern",
             "duration": "Jan 2024 - Feb 2024",
             "description": """
@@ -25,16 +34,18 @@ def display_projects():
             Additionally, developed a Titanic data classification model to predict survival outcomes using passenger data.
             """,
             "github_link": "https://github.com/simplysowj/CatVsDog_Classifier-SpamDetector",
-            "video_link": "https://www.linkedin.com/posts/sowjanya-bojja_internship-journey-with-bharat-intern-sms-activity-7164659747697205248-sOjj?utm_source=share&utm_medium=member_desktop"
+            "spam/ham-video_link": "https://www.linkedin.com/posts/sowjanya-bojja_internship-journey-with-bharat-intern-sms-activity-7164659747697205248-sOjj?utm_source=share&utm_medium=member_desktop"
+             "titanic-video" :"https://www.linkedin.com/posts/sowjanya-bojja_titanic-activity-7164669828396490753-UqRl?utm_source=share&utm_medium=member_desktop"
+             "catvsdog-video":"https://www.linkedin.com/posts/sowjanya-bojja_tensorflow-flask-deeplearning-activity-7163954448375996417-BExp?utm_source=share&utm_medium=member_desktop"
         },
-            {
+        {
             "title": "Cognifyz Technologies",
             "duration": "Jan 2024 - Feb 2024",
             "description": """
             Implemented ML algorithm for Income prediction and Gold price Prediction.
             """,
             "github_link": "https://github.com/simplysowj/Gold-Price-Prediction-including-Flask-app",
-            "video_link": ""
+            "video_link": "https://www.linkedin.com/posts/sowjanya-bojja_internshipjourney-goldpriceprediction-activity-7164817502026321920-712k?utm_source=share&utm_medium=member_desktop"
         },
         {
             "title": "Innomatics Research LABS (3 Months)",
