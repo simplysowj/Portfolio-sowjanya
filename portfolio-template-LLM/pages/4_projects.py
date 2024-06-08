@@ -55,7 +55,7 @@ def display_projects():
                 "https://github.com/simplysowj/Quora_duplicate_question_detector",
                 "https://github.com/simplysowj/Internship_july_2022"
             ],
-            "video_link": ""
+            "video_link": "https://www.linkedin.com/posts/sowjanya-bojja_mlflow-mlops-ml-activity-6989568784457973760-RggX?utm_source=share&utm_medium=member_desktop"
         },
         {
             "title": "Internshala Trainings - NLP Projects",
