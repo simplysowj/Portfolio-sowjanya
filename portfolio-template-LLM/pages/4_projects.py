@@ -34,7 +34,7 @@ def display_projects():
             Additionally, developed a Titanic data classification model to predict survival outcomes using passenger data.
             """,
             "github_link": "https://github.com/simplysowj/CatVsDog_Classifier-SpamDetector",
-             "catvsdog-video":"https://www.linkedin.com/posts/sowjanya-bojja_tensorflow-flask-deeplearning-activity-7163954448375996417-BExp?utm_source=share&utm_medium=member_desktop"
+             "video_link":"https://www.linkedin.com/posts/sowjanya-bojja_tensorflow-flask-deeplearning-activity-7163954448375996417-BExp?utm_source=share&utm_medium=member_desktop"
         },
         {
             "title": "Cognifyz Technologies",
