@@ -64,6 +64,67 @@ st.sidebar.markdown("---")
 st.sidebar.markdown("Developed by Sowjanya")
 st.sidebar.markdown("Contact: [simplysowj@gmai.com](mailto:simplysowj@gmai.com)")
 st.sidebar.markdown("GitHub: [Repo](https://github.com/simplysowj)")
+
+st.sidebar.markdown(
+        """
+        <style>
+        /* Style the sidebar itself */
+        [data-testid=stSidebar] {
+            background-image: linear-gradient(#000395, #FFD4DD);
+        }
+
+        /* Style hyperlinks */
+        .sidebar-content a {
+            display: block;
+            color: #2e9aff !important;
+            font-weight: bold;
+        }
+
+        /* Style paragraphs */
+        .sidebar-content p {
+            color: white;
+        }
+
+        /* Customize caret color */
+        .st-ck {
+            caret-color: black;
+        }
+
+        /* Set text color for certain elements */
+        .st-bh, .st-c2, .st-c3, .st-c4, .st-c5, .st-c6, .st-c7, .st-c8, .st-c9, .st-ca, .st-cb, .st-b8, .st-cc, .st-cd, .st-ce, .st-cf, .st-cg, .st-ch, .st-ci, .st-cj, .st-ae, .st-af, .st-ag, .st-ck, .st-ai, .st-aj, .st-c1, .st-cl, .st-cm, .st-cn {
+            color: black;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+    st.markdown(
+        """
+        <style>
+        .container {
+            max-width: 800px;
+        }
+        .title {
+            text-align: center;
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .description {
+            margin-bottom: 30px;
+        }
+        .instructions {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #f5f5f5;
+            border-radius: 5px;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+
+
 # load the file
 file_path = "portfolio-template-LLM/bio.txt" 
 documents = SimpleDirectoryReader(input_files=[file_path]).load_data()
