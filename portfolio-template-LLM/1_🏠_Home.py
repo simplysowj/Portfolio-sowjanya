@@ -85,6 +85,11 @@ st.sidebar.markdown(
             color: white;
         }
 
+        /* Set text color for the entire sidebar */
+        .sidebar-content, .sidebar-content * {
+            color: white !important;
+        }
+
         /* Customize caret color */
         .st-ck {
             caret-color: black;
