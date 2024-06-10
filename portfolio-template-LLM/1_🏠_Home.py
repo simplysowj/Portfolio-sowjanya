@@ -70,7 +70,7 @@ st.sidebar.markdown(
         <style>
         /* Style the sidebar itself */
         [data-testid=stSidebar] {
-            background-image: linear-gradient(#FFD4DD, #FFD4DD);
+            background-image: linear-gradient(#cfbae2, #cfbae2);
             
         }
 
