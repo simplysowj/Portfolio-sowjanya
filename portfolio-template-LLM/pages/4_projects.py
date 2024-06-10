@@ -5,7 +5,7 @@ def display_projects():
 
     projects = [
         {
-            "title": "AI Intern, Mentorness",
+            "title": "AI Intern, Mentorness --Generative AI",
             "duration": "Feb 2024 - Mar 2024",
             "description": """
             Developed a dynamic ATS Resume Expert application using Gemini-pro-vision during my internship with Mentorness. 
@@ -18,7 +18,7 @@ def display_projects():
             "video_link": "https://www.linkedin.com/posts/sowjanya-bojja_atsresume-streamlit-resumeparser-activity-7173455333477064704-WaeO?utm_source=share&utm_medium=member_desktop"  
         },
          {
-            "title": "Big Data Engineering Project",
+            "title": "Big Data Engineering Project(Kafka,Pyspark via Zepplin using Docker)",
             "duration": "Feb 2024 - Mar 2024 as part of academics",
             "description": """Developed an end-to-end sentiment analysis workflow using Apache Spark, Kafka, and PySpark, with Docker for container management and Streamlit for visualization.
             Trained sentiment analysis models in Spark via Zeppelin and integrated results with MySQL for scalable and robust data storage and analysis.
@@ -27,7 +27,7 @@ def display_projects():
             "video_link": "https://www.linkedin.com/posts/sowjanya-bojja_sentimentanalysis-apachespark-kafka-activity-7186393653991415808-2qUG?utm_source=share&utm_medium=member_desktop"
         },
         {   
-            "title":"analyzed sales data using Databricks, PySpark, and Matplotlib. ",
+            "title":"Analyzed sales data using Databricks, PySpark, and Matplotlib. ",
             "duration": "Feb 2024 - Mar 2024 as part of academics",
             "description": """
             Analyzed sales data using Databricks, PySpark, and Matplotlib. Conducted Exploratory Data Analysis (EDA) to uncover insights and trends, processed large datasets efficiently, and created interactive visualizations showcasing sales trends and key metrics.
@@ -46,7 +46,7 @@ def display_projects():
              "video_link":"https://www.linkedin.com/posts/sowjanya-bojja_tensorflow-flask-deeplearning-activity-7163954448375996417-BExp?utm_source=share&utm_medium=member_desktop"
         },
         {
-            "title": "Cognifyz Technologies",
+            "title": "Cognifyz Technologies ---ML Intern",
             "duration": "Jan 2024 - Feb 2024",
             "description": """
             Implemented ML algorithm for Income prediction and Gold price Prediction.
@@ -113,7 +113,7 @@ def display_projects():
             "video_link": "https://www.linkedin.com/posts/sowjanya-bojja_innovation-accessibility-ai-ugcPost-7197697478962335744-awtm?utm_source=share&utm_medium=member_desktop"
         },
         {
-            "title": "CU Project",
+            "title": "CU Project -- Springboot,MongoDB and React(Microservices) ",
             "duration": "MSC in Data Science",
             "description": """
             Developed a movie review application using MongoDB, Java, Spring Boot, and React, featuring a loosely coupled architecture for independent evolution of client and server code, leveraging microservices for efficient business function handling. Spring Boot was chosen for its rapid development capabilities in the microservices landscape.
@@ -122,7 +122,7 @@ def display_projects():
             "video_link": "https://www.linkedin.com/posts/sowjanya-bojja_i-am-happy-to-share-a-movie-review-application-activity-7160443895137419264-SGYf?utm_source=share&utm_medium=member_desktop"
         },
         {
-            "title": " CU Minor Project",
+            "title": " CU Minor Project---Big Data Engineering (Kafka,pyspark,Mysql with DL)",
             "duration": "MSC in Data Science",
             "description": """
             Implemented a fraud detection system using big data concepts such as Kafka, PySpark, and MySQL with Machine learning algorithms. Developed a user-friendly interface using Streamlit and incorporated Gen AI for front-end enhancement.
