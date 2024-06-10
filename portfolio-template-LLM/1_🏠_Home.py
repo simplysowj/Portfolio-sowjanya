@@ -305,7 +305,14 @@ with st.container():
             """)
     
     
-
+    #Industry Experience:
+    st.subheader("Previous Industry Experience")
+    st.write("""
+            Plsql Developer Tools: TOAD 7.6.0.11, PL/SQL Developer, Forms 61, Reports 6i
+            Company TCS
+            Client Electronic Arts-India Location Bangalore, India (2010 to 2014) (Nov 2010 May2014)
+            Client Tata TeleServices Limited - India (2008 to 2010) Mar 2008-Oct 2010
+             """)
      
 
 
