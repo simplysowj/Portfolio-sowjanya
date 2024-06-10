@@ -122,7 +122,7 @@ def display_projects():
             "video_link": "https://www.linkedin.com/posts/sowjanya-bojja_i-am-happy-to-share-a-movie-review-application-activity-7160443895137419264-SGYf?utm_source=share&utm_medium=member_desktop"
         },
         {
-            "title": " CU Minor Project---Big Data Engineering (Kafka,pyspark,Mysql with DL)",
+            "title": " CU Minor Project---Big Data Engineering (Kafka,pyspark,Mysql with DL using Docker and Zepplin)",
             "duration": "MSC in Data Science",
             "description": """
             Implemented a fraud detection system using big data concepts such as Kafka, PySpark, and MySQL with Machine learning algorithms. Developed a user-friendly interface using Streamlit and incorporated Gen AI for front-end enhancement.
