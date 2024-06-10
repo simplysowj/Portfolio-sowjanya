@@ -104,7 +104,7 @@ def display_projects():
             "video_link": "https://www.linkedin.com/posts/sowjanya-bojja_analysis-of-fitbit-fitness-tracker-data-to-activity-7116596211960221696-KafI?utm_source=share&utm_medium=member_desktop"
         },
         {
-            "title": "CU major project",
+            "title": "CU major project--(NLP,DL,Generative AI)",
             "duration": "MSC in Data Science",
             "description": """
             Developed an interactive chatbot capable of generating captions for images and audio. Utilized advanced AI techniques, including image captioning (using Deep learning and NLP) and audio generation with Gen AI, to enhance user experience.
