@@ -70,8 +70,8 @@ st.sidebar.markdown(
         <style>
         /* Style the sidebar itself */
         [data-testid=stSidebar] {
-            background-image: linear-gradient(#000395, #FFD4DD);
-            color: white !important;
+            background-image: linear-gradient(#FFD4DD, #FFD4DD);
+            
         }
 
         /* Style hyperlinks */
