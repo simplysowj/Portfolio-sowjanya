@@ -71,6 +71,7 @@ st.sidebar.markdown(
         /* Style the sidebar itself */
         [data-testid=stSidebar] {
             background-image: linear-gradient(#000395, #FFD4DD);
+            color: white !important;
         }
 
         /* Style hyperlinks */
