@@ -19,12 +19,21 @@ def display_projects():
         },
          {
             "title": "Big Data Engineering Project",
-            "duration": "Feb 2024 - Mar 2024",
+            "duration": "Feb 2024 - Mar 2024 as part of academics",
             "description": """Developed an end-to-end sentiment analysis workflow using Apache Spark, Kafka, and PySpark, with Docker for container management and Streamlit for visualization.
             Trained sentiment analysis models in Spark via Zeppelin and integrated results with MySQL for scalable and robust data storage and analysis.
             Created a user-friendly web app with Streamlit to visualize sentiment trends, enhancing accessibility and actionable insights from large-scale datasets.""",
             "github_link": "https://github.com/simplysowj/bigdataenggproject",
             "video_link": "https://www.linkedin.com/posts/sowjanya-bojja_sentimentanalysis-apachespark-kafka-activity-7186393653991415808-2qUG?utm_source=share&utm_medium=member_desktop"
+        },
+        {   
+            "title":"analyzed sales data using Databricks, PySpark, and Matplotlib. ",
+            "duration": "Feb 2024 - Mar 2024 as part of academics",
+            "description": """
+            Analyzed sales data using Databricks, PySpark, and Matplotlib. Conducted Exploratory Data Analysis (EDA) to uncover insights and trends, processed large datasets efficiently, and created interactive visualizations showcasing sales trends and key metrics.
+            """,
+            "github_link": "https://lnkd.in/eFYi_DQv",
+            "video_link": "https://www.linkedin.com/posts/sowjanya-bojja_databricks-pyspark-pyspark-activity-7177390039205597185-lXg6?utm_source=share&utm_medium=member_desktop"
         },
         {
             "title": "Bharat Intern - Data Science Intern",
