@@ -60,7 +60,6 @@ st.markdown("""
 
 # -----------------  chatbot  ----------------- #
 
-st.sidebar.markdown("---")
 st.sidebar.markdown("Developed by Sowjanya")
 st.sidebar.markdown("Contact: [simplysowj@gmai.com](mailto:simplysowj@gmai.com)")
 st.sidebar.markdown("GitHub: [Repo](https://github.com/simplysowj)")
