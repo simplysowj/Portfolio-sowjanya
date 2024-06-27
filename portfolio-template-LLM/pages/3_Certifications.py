@@ -2,13 +2,9 @@ import streamlit as st
 from PIL import Image
 from constant import *
 
-def local_css(file_name):
-    with open(file_name) as f:
-        st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
         
 
 
-st.sidebar.markdown(info['Photo'],unsafe_allow_html=True)
 
 img_4 = Image.open("portfolio-template-LLM/images/4.png")
 img_5 = Image.open("portfolio-template-LLM/images/5.png")
