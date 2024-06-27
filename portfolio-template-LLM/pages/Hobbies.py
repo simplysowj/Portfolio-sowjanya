@@ -8,7 +8,7 @@ def local_css(file_name):
         
 local_css("portfolio-template-LLM/style/style.css")
 
-st.sidebar.markdown(info['Photo'],unsafe_allow_html=True)
+
 
 img_1 = Image.open("portfolio-template-LLM/images/1.jpg")
 img_2 = Image.open("portfolio-template-LLM/images/2.png")
