@@ -38,3 +38,23 @@ Sowjanya is actively seeking new opportunities and is ready to start immediately
 
 References:
 References are available upon request.
+
+
+Certifications:
+- Certified Data Scientist
+- Certified Machine Learning Specialist
+
+Projects:
+- Fraud Detection System using LSTM Autoencoders and Spark-Kafka Integration.
+- Real-time Analytics Dashboard using Streamlit and Plotly.
+
+Publications:
+- Article on Machine Learning Best Practices, Medium.
+- Research Paper on Anomaly Detection, IEEE.
+
+Hobbies:
+- Blogging about data science and machine learning.
+- Participating in hackathons and coding competitions.
+
+Education:
+- M.S.C in Data Science
