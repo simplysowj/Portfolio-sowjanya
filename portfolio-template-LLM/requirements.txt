@@ -14,7 +14,7 @@ ipython
 pymupdf
 google-generativeai
 langchain
-PyPDF2
+pypdf
 chromadb
 
 
