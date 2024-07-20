@@ -131,14 +131,10 @@ st.markdown(
 
 
 # load the file
-#file_path = "portfolio-template-LLM/bio.txt" 
-#documents = SimpleDirectoryReader(input_files=[file_path]).load_data()
-
 file_path = "portfolio-template-LLM/bio.txt" 
-with open(file_path, 'r') as file:
-    resume_text = file.read()
+documents = SimpleDirectoryReader(input_files=[file_path]).load_data()
 
-documents = [resume_text]
+
 
 #pronoun = info["Pronoun"]
 #name = info["Name"]
