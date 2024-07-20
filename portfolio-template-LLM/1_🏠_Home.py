@@ -211,22 +211,9 @@ st.markdown("## How to use\n"
             "1. Enter your [OpenAI API key](https://platform.openai.com/account/api-keys) in the sidebar🔑\n"  # noqa: E501
         )
 
-def ask_bot(input_text):
-    response = openai.ChatCompletion.create(
-        model="gpt-4",
-        messages=[
-            {"role": "system", "content": "You are an assistant helping to answer questions about a person."},
-            {"role": "user", "content": f"{input_text}\n\n{resume_text}"}
-        ],
-        temperature=0.7,
-        max_tokens=150,
-        n=1,
-        stop=None
-    )
-    message = response.choices[0].message['content'].strip()
-    return message
 
-def ask_bot1(input_text):
+
+def ask_bot(input_text):
     # define LLM
     llm = ChatOpenAI(
         model_name="gpt-3.5-turbo",
