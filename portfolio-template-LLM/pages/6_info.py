@@ -30,7 +30,7 @@ chat_template = ChatPromptTemplate.from_messages([
 output_parser = StrOutputParser()
 
 #Loading Document
-loader = PyPDFLoader(r"2404.07143.pdf")
+loader = PyPDFLoader(r"portfolio-template-LLM/images/Data_Scientist_Resume_Sowjanya_with_projects.pdf")
 pages = loader.load_and_split()
 
 data = loader.load()
