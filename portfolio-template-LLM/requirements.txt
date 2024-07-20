@@ -10,3 +10,4 @@ sentence_transformers
 langchain
 langchain_community
 langchain-google-genai
+ipython
