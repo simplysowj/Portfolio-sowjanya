@@ -59,4 +59,5 @@ Hobbies:
 - Participating in hackathons and coding competitions.
 
 Education:
-- M.S.C in Data Science """)
+- M.S.C in Data Science """,
+        unsafe_allow_html=True)
