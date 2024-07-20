@@ -12,3 +12,9 @@ langchain_community
 langchain-google-genai
 ipython
 pymupdf
+google-generativeai
+langchain
+PyPDF2
+chromadb
+faiss-cpu
+
