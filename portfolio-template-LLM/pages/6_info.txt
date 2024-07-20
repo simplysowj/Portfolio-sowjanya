@@ -1,3 +1,5 @@
+st.markdown(
+    """
 About Sowjanya:
 Sowjanya is a seasoned professional with expertise in AI, Data Science technologies. Holding an Post grad degree in data Science from the University of Chandigarh (2024), Sowjanya is committed to delivering innovative solutions.
 
@@ -57,4 +59,4 @@ Hobbies:
 - Participating in hackathons and coding competitions.
 
 Education:
-- M.S.C in Data Science
+- M.S.C in Data Science """)
