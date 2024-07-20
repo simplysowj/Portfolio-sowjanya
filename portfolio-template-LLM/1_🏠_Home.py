@@ -212,27 +212,19 @@ st.markdown("## How to use\n"
         )
 
 def ask_bot(input_text):
-    # Define the OpenAI API call
-    response = openai.Completion.create(
-        engine="davinci",
-        prompt=f"{input_text}\n\n{resume_text}",
+    response = openai.ChatCompletion.create(
+        model="gpt-4",
+        messages=[
+            {"role": "system", "content": "You are an assistant helping to answer questions about a person."},
+            {"role": "user", "content": f"{input_text}\n\n{resume_text}"}
+        ],
         temperature=0.7,
         max_tokens=150,
         n=1,
         stop=None
     )
-    message = response.choices[0].text.strip()
+    message = response.choices[0].message['content'].strip()
     return message
-
-# Chatbot interaction
-st.title("Ask Me Anything")
-
-st.write("After providing OpenAI API Key on the sidebar, you can send your questions and hit Enter to know more about me from my AI agent, Buddy!")
-
-user_input = st.text_input("Ask a question about Sowjanya:", "")
-if user_input:
-    answer = ask_bot(user_input)
-    st.write(answer)
 
 def ask_bot1(input_text):
     # define LLM
