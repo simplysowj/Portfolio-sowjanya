@@ -9,3 +9,4 @@ nltk==3.8.1
 sentence_transformers
 langchain
 langchain_community
+langchain-google-genai
