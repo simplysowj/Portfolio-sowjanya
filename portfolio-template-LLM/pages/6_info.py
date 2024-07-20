@@ -10,7 +10,7 @@ from langchain_community.vectorstores import Chroma
 from langchain_core.runnables import RunnablePassthrough
 from IPython.display import Markdown as md
 from langchain_community.document_loaders import PyPDFLoader
-st.title("🤖 RAG System on Leave No Context Behind Paper 📄")
+st.title("🤖 RAG System on personal portfolio 📄")
 user_input = st.text_input("Enter text ....")
 
 chat_model = ChatGoogleGenerativeAI(google_api_key="AIzaSyDvU3SwP_TMwEv_pfyy9JIqE_BMm4Y5O0Q", 
@@ -30,7 +30,7 @@ chat_template = ChatPromptTemplate.from_messages([
 output_parser = StrOutputParser()
 
 #Loading Document
-loader = PyPDFLoader(r"2404.07143.pdf")
+loader = PyPDFLoader(r"portfolio-template-LLM/images/Data_Scientist_Resume_Sowjanya_with_projects.pdf")
 pages = loader.load_and_split()
 
 data = loader.load()
