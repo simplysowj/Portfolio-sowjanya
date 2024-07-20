@@ -131,14 +131,29 @@ st.markdown(
 
 
 # load the file
+#file_path = "portfolio-template-LLM/bio.txt" 
+#documents = SimpleDirectoryReader(input_files=[file_path]).load_data()
+
 file_path = "portfolio-template-LLM/bio.txt" 
-documents = SimpleDirectoryReader(input_files=[file_path]).load_data()
+with open(file_path, 'r') as file:
+    resume_text = file.read()
+
+documents = [resume_text]
+
+#pronoun = info["Pronoun"]
+#name = info["Name"]
 
 
+info = {
+    "Pronoun": "she",
+    "Name": "Sowjanya",
+    "Full_Name": "Sowjanya Bojja",
+    "Intro": "A Data Scientist passionate about leveraging data to drive insights.",
+    "About": "Experienced in Machine Learning, Data Analysis, and Data Visualization.",
+    "Email": "simplysowj@gmai.com"
+}
 pronoun = info["Pronoun"]
 name = info["Name"]
-
-
 
 
 
@@ -196,8 +211,30 @@ st.markdown("## How to use\n"
             "1. Enter your [OpenAI API key](https://platform.openai.com/account/api-keys) in the sidebar🔑\n"  # noqa: E501
         )
 
-
 def ask_bot(input_text):
+    # Define the OpenAI API call
+    response = openai.Completion.create(
+        engine="davinci",
+        prompt=f"{input_text}\n\n{resume_text}",
+        temperature=0.7,
+        max_tokens=150,
+        n=1,
+        stop=None
+    )
+    message = response.choices[0].text.strip()
+    return message
+
+# Chatbot interaction
+st.title("Ask Me Anything")
+
+st.write("After providing OpenAI API Key on the sidebar, you can send your questions and hit Enter to know more about me from my AI agent, Buddy!")
+
+user_input = st.text_input("Ask a question about Sowjanya:", "")
+if user_input:
+    answer = ask_bot(user_input)
+    st.write(answer)
+
+def ask_bot1(input_text):
     # define LLM
     llm = ChatOpenAI(
         model_name="gpt-3.5-turbo",
