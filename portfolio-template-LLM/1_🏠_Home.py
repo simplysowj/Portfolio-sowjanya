@@ -373,6 +373,8 @@ with st.container():
              
               - **Academic Projects & Papers **:
                 Academic Papers
+                https://medium.com/@simplysowj
+                
                 Big Data Engineering and Gen AI Project(Kafka,Pyspark via Zeppelin using Docker) 
                 GitHub Repository Sentiment Analysis |  GIthub Repository for Fraud Detection using BIG data
                 Image Captioning with OCR and GenAI
