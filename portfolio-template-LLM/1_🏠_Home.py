@@ -376,10 +376,12 @@ with st.container():
                 https://medium.com/@simplysowj
                 
                 Big Data Engineering and Gen AI Project(Kafka,Pyspark via Zeppelin using Docker) 
-                GitHub Repository Sentiment Analysis |  GIthub Repository for Fraud Detection using BIG data
-                Image Captioning with OCR and GenAI
-                EDA with Data Bricks
-                Microservices with spring boot
+                https://github.com/simplysowj/bigdataenggproject
+                https://github.com/simplysowj/bigdata_fraud_detection
+                https://github.com/simplysowj/OCR_Imagecaptioning_openai
+                https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/1123303988966450/1736356871005362/5428641177518963/latest.html
+               https://github.com/simplysowj/Microservices
+               
             -**Bachelor of Technology (B. Tech) in Electronics and Communications –JNTU, India.    2002 - 2006**
 
             """)
