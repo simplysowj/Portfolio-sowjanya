@@ -370,15 +370,15 @@ with st.container():
             - **MSC in Data Science**:
               - **University**: Chandigarh University
               - **Subjects**: Python Programming, Calculus and Linear Algebra for Data Scientists, Applied Probability and Statistics, Data Analysis and Visualization, Communication and Soft Skills, Machine Learning, SQL Programming, Advanced Machine Learning, Advanced Database Management, Deep Learning, Optimization, Natural Language Processing
-              -Master of Science (MSC) in Data Science –Chandigarh University, India.      2022 June   -       2024 June
-                Academic Projects & Papers:
+             
+              - **Academic Projects & Papers **:
                 Academic Papers
                 Big Data Engineering and Gen AI Project(Kafka,Pyspark via Zeppelin using Docker) 
                 GitHub Repository Sentiment Analysis |  GIthub Repository for Fraud Detection using BIG data
                 Image Captioning with OCR and GenAI
                 EDA with Data Bricks
                 Microservices with spring boot
-                Bachelor of Technology (B. Tech) in Electronics and Communications –JNTU, India.    2002 - 2006
+            -**Bachelor of Technology (B. Tech) in Electronics and Communications –JNTU, India.    2002 - 2006**
 
             """)
             
