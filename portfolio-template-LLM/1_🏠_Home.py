@@ -390,7 +390,10 @@ with st.container():
                 worked on a project where I analyzed sales data using Databricks, hashtag#PySpark, and hashtag#Matplotlib.
                 https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/1123303988966450/1736356871005362/5428641177518963/latest.html
                Movie Review App
-Developed a movie review application using MongoDB, Java, Spring Boot, and React, featuring a loosely coupled architecture for independent evolution of client and server code, leveraging microservices for efficient business function handling. Spring Boot was chosen for its rapid development capabilities in the microservices landscape.
+                Developed a movie review application using MongoDB, 
+                Java, Spring Boot, and React, featuring a loosely coupled architecture for independent evolution 
+                of client and server code, leveraging microservices for efficient business function handling.
+                Spring Boot was chosen for its rapid development capabilities in the microservices landscape.
                https://github.com/simplysowj/Microservices
                
             -**Bachelor of Technology (B. Tech) in Electronics and Communications –JNTU, India.    2002 - 2006**
