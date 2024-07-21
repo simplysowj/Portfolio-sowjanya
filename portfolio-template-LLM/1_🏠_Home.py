@@ -376,9 +376,18 @@ with st.container():
                 https://medium.com/@simplysowj
                 
                 Big Data Engineering and Gen AI Project(Kafka,Pyspark via Zeppelin using Docker) 
+                Sentiment Analysis
                 https://github.com/simplysowj/bigdataenggproject
+                Implemented a fraud detection system using big data concepts such as Kafka, PySpark, and MySQL with Machine learning algorithms. 
+                Developed a user-friendly interface using Streamlit and incorporated Gen AI for front-end enhancement.
                 https://github.com/simplysowj/bigdata_fraud_detection
-                https://github.com/simplysowj/OCR_Imagecaptioning_openai
+                Image Captioning with OCR and GenAI
+                Developed an interactive chatbot capable of generating captions for images and audio with Text in the image.
+                Utilized advanced AI techniques, 
+                including image captioning (using Deep learning and NLP) and audio generation with Gen AI, to enhance user experience.
+                 https://github.com/simplysowj/OCR_Imagecaptioning_openai
+                 EDA with DataBricks
+                worked on a project where I analyzed sales data using Databricks, hashtag#PySpark, and hashtag#Matplotlib.
                 https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/1123303988966450/1736356871005362/5428641177518963/latest.html
                https://github.com/simplysowj/Microservices
                
