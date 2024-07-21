@@ -21,7 +21,7 @@ img_3=img_3.resize((70, 70))
 st.set_page_config(page_title='Template' ,layout="wide",page_icon='👧🏻')
 
 
-pdf_path = "portfolio-template-LLM/images/Sowjanya_Data_science_latest_resume.pdf"
+pdf_path = "portfolio-template-LLM/images/Resume_Sowjanya_DataScience_New.pdf"
 
 
 
