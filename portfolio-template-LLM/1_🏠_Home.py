@@ -367,10 +367,12 @@ with st.container():
    # Education Section
     st.subheader("🎓 Education")
     st.write("""
-            - **MSC in Data Science**:
-              - **University**: Chandigarh University
-              - **Subjects**: Python Programming, Calculus and Linear Algebra for Data Scientists, Applied Probability and Statistics, Data Analysis and Visualization, Communication and Soft Skills, Machine Learning, SQL Programming, Advanced Machine Learning, Advanced Database Management, Deep Learning, Optimization, Natural Language Processing
-             
+              -**Master of Science (MSC) in Data Science Chandigarh University, India  July 2022 - August 2024**
+               -**Relevant Coursework **: Python Programming, Calculus and Linear Algebra, Applied Probability and Statistics, 
+                  Data Analysis and Visualization, Communication and Soft Skills, Machine Learning, SQL Programming, 
+                  Advanced Machine Learning, Advanced Database Management, Deep Learning, Optimization, Natural Language Processing,
+                  Web Technologies,Cloud Native Development,Java Programming,Data Structures and algorithms,NLP,
+                  Applied Business Analytics,Data Mining and Data warehousing,data Engineering.
               - **Academic Projects & Papers **:
                 Academic Papers
                 https://medium.com/@simplysowj
