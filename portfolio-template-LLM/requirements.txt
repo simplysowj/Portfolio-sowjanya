@@ -16,7 +16,7 @@ google-generativeai
 langchain
 pypdf
 chromadb
-pysqlite3-binary
+
 
 
 
